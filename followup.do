@@ -68,8 +68,7 @@ label define ucodfmt 10 "All other causes (residual)"                           
 label define ucodfmt .z "Ineligible, under age 18, assumed alive, or no cause of death data"      , add
 
 // READ IN THE FIXED-WIDTH FORMAT ASCII PUBLIC-USE LMF
-infix str publicid 1-14 eligstat 15 mortstat 16 ucod_leading 17-19 diabetes 20 hyperten 21 dodqtr 22 dodyear 23-26 wgt_new 27-34 sa_wgt_new 35-42 using ${SURVEY}_MORT_2019_PUBLIC.dat	
-
+infix str publicid 1-14 eligstat 15 mortstat 16 ucod_leading 17-19 diabetes 20 hyperten 21 dodqtr 22 dodyear 23-26 wgt_new 27-34 sa_wgt_new 35-42 using ${SURVEY}_MORT_2019_PUBLIC.dat
 
 // REPLACE MISSING VALUES TO .z FOR LABELING
 replace mortstat = .z if mortstat >=.
