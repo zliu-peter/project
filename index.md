@@ -15,7 +15,7 @@ There are two main data source, with instructions for access.
   ```
 
 + NCHS (20-year period) Mortality Follow-up Data
-  Click this [link](https://ftp.cdc.gov/pub/), and follow the instructions as followed:
+  - Click this [link](https://ftp.cdc.gov/pub/), and follow the instructions as followed:
   - Health Statistics
     - NCHS
       - datalinkage
