@@ -15,7 +15,7 @@ There are two main data source, with instructions for access.
   ```
 
 + NCHS (20-year period) Mortality Follow-up Data
-  Click this [link] (https://ftp.cdc.gov/pub/), and follow the instructions as followed:
+  Click this [link](https://ftp.cdc.gov/pub/), and follow the instructions as followed:
   - Health Statistics
     - NCHS
       - datalinkage
@@ -33,6 +33,7 @@ There are two main data source, with instructions for access.
 
 ## Code Protocols
 + Access the data file from NCHS as specified above
+  - Make sure this [file](https://ftp.cdc.gov/pub/HEALTH_STATISTICS/NCHS/datalinkage/linked_mortality/NHANES_1999_2000_MORT_2019_PUBLIC.dat) is downloaded either from this website or from my repo
 
 + Edit the `SURVEY` and alter it to `NHANES_1999_2000`
 
