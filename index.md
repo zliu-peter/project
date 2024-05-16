@@ -55,7 +55,7 @@ There are two main data source, with instructions for access.
   lookfor follow
   ```
 
-## Week 7 analysis coming up ...
+## Week 7 analysis
 
 + Inference
   - Employ 95% CI and p-values basis
@@ -72,3 +72,4 @@ There are two main data source, with instructions for access.
   codebook huq010
   ```
 + Results and plots will be in the next section (week 7).
+  - click [here](https://zliu-peter.github.io/project/dyndoc.html) to view nonparametric and semiparametric risk estimates from Stata
